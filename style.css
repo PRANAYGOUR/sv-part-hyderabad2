@@ -1,24 +1,68 @@
 .grid{
-
+    justify-content: space-evenly;
     font-family:cursive;
-
-    background-color:pink;
-font-size: 50px;
-
-}
-
-.item{
-    font-family:cursive;
-    
+    padding-bottom: 30px;
     background-color:red;
     font-size: 50px;
-      
 }
+ 
+.grid img{
+    margin-left: 100px;
+}
+
+
+.item{
+    justify-content: space-evenly;
+    font-family:cursive;
+    padding-bottom: 30px;
+    background-color:turquoise;
+    font-size: 50px;
+}
+ 
+.item img{
+    margin-left: 100px;
+}
+
  
 .item1{
     font-family:cursive;
-    background-color:royalblue;
+    background-color: gray;
     font-size: 50px;
       
 }
 
+
+
+a:link{
+    color: white;
+  }
+  a:visited{
+    color: white;
+  }
+
+  .grid  img:hover{
+    transform: scale(1.2);
+  }
+  
+  a:link{
+    color: white;
+  }
+  a:visited{
+    color: white;
+  }
+
+  .item  img:hover{
+    transform: scale(1.2);
+  }
+  
+  a:link{
+    color: white;
+  }
+  a:visited{
+    color: white;
+  }
+
+  .item1  img:hover{
+    transform: scale(1.2);
+  }
+  
